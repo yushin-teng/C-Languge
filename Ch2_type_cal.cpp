@@ -132,28 +132,110 @@ int cars = 10; // Definition for the variable apples, 可直接指定初值.
 // }
 
 
+// int main(){
+// //     char ch = 0;    //init
+//     char ch(0);     //init
+// //     int ch_value = 0;   //init
+//     int ch_value(0);     //init
+//     cout << "Enter a character: ";
+//     cin >> ch;
+//     ch_value = ch;  //自動轉換
+//     cout << endl
+//          << ch << " is " << ch_value;
+
+//     ch_value = ++ch;
+//     cout << endl
+//          << ch << " is " << ch_value
+//          << endl; 
+//      // wchar_t wide_letter = L'\x0402';
+//      wchar_t wide_letter = L'Z';
+//      char letter('A');
+//      cout << wide_letter << endl
+//           << letter << endl;
+
+//     return 0;
+// }
+
+/* p60. example1 */
+// int main(){
+//      float radius(0.F);
+//      float pi = 3.14159F;
+//      cout << "Enter Enter the circle radius(m): ";
+//      cin >> radius;
+//      // float circle = pi * radius * radius;
+//      // cout << "The circle radius is : "<< circle << " m^2 " << endl;10
+//      cout << "The circle radius is : "<< pi * radius * radius << " m^2 " << endl;
+
+//      return 0;
+// }
+
+/* p60. example2 */
+// int main(){
+//      float radius(0.F);
+//      float pi = 3.14159F;
+//      int cir_prec(5);
+//      cout << "Enter the circle radius(m): ";
+//      cin >> radius;
+//      cout << "Enter the result precision: ";
+//      cin >> cir_prec;
+//      cout << setprecision(cir_prec) << scientific;
+//      // float circle = pi * radius * radius;
+//      // cout << "The circle radius is : "<< circle << " m^2 " << endl;10
+//      cout << "The circle radius is : "<< pi * radius * radius << " m^2 " << endl;
+
+//      return 0;
+// }
+
+/* p60. example3 */
+// int main(){
+//      // double num1(0L), num2(0L), num3(0L), sum_of_squr(0L);
+//      // cout << "Please enter three double numbers: ";
+//      // cin >> num1 >> num2 >> num3;
+     
+//      // sum_of_squr = (num1 * num1) + (num2 * num2) + (num3 * num3);
+//      // cout << "Sum of squrares = " << sum_of_squr << endl;
+
+//      double a, b, c, sum;
+
+//      cout << "Please enter three float point numbers: ";
+//      cin >> a >> b >> c;
+
+//      // 用一個敘述計算平方和
+//      sum = a * a + b * b + c * c;
+
+//      cout << "The sum of the squares of three numbers = " << sum << endl;
+//      return 0;
+// }
+
+/* p60. example4 */
 int main(){
-//     char ch = 0;    //init
-    char ch(0);     //init
-//     int ch_value = 0;   //init
-    int ch_value(0);     //init
-    cout << "Enter a character: ";
-    cin >> ch;
-    ch_value = ch;  //自動轉換
-    cout << endl
-         << ch << " is " << ch_value;
+//     int totalInches;    // 使用者輸入的總英吋數
+//     int feet, inches;   // 換算後的英尺數與剩餘英吋數
 
-    ch_value = ++ch;
-    cout << endl
-         << ch << " is " << ch_value
-         << endl; 
-     // wchar_t wide_letter = L'\x0402';
-     wchar_t wide_letter = L'Z';
-     char letter('A');
-     cout << wide_letter << endl
-          << letter << endl;
+//     cout << "Please enter an integer number of inches: ";
+//     cin >> totalInches;
 
-    return 0;
+//     // 1 英尺 = 12 英吋
+//     feet = totalInches / 12;   // 計算有幾英尺
+//     inches = totalInches % 12; // 餘數就是剩下的英吋數
+
+//     cout << totalInches << " inches = "
+//          << feet << " feet " << inches << " inches" << endl;
+
+     int user_inches(0);
+     int feet(0), inches(0);
+
+     cout << "Enter the integer number of inches: ";
+     cin >> user_inches;
+
+     feet = user_inches / 12;
+     inches = user_inches % 12;
+
+     cout << user_inches 
+          << " inches = " 
+          << feet
+          << " feet " 
+          << inches
+          << " inches" << endl;
+     return 0;
 }
-
-//
