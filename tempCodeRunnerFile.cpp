@@ -1,0 +1,1 @@
+    int ch_value = 0;   //init
