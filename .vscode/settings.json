@@ -3,6 +3,8 @@
     "files.associations": {
         "iostream": "cpp",
         "ostream": "cpp",
-        "iomanip": "cpp"
+        "iomanip": "cpp",
+        "limits": "cpp",
+        "string_view": "cpp"
     }
 }
