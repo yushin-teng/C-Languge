@@ -5,6 +5,9 @@
         "ostream": "cpp",
         "iomanip": "cpp",
         "limits": "cpp",
-        "string_view": "cpp"
+        "string_view": "cpp",
+        "algorithm": "cpp",
+        "format": "cpp",
+        "random": "cpp"
     }
 }
